@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>document</title>
+        <style>
+            .container{
+                display: flex;
+                width: 100%;
+                height: 700px;
+                margin-top: 20px;
+                background-image: url(img.jpg) ;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            .form{
+                width: 500px;
+                height: 500px;
+                border: 2px solid;
+                margin-top: 50px;
+                margin-left: 50px;
+                margin-bottom: 30px;
+                background-color:white;
+            }
+            .logo{
+                display: flex;
+                }
+            .image{
+                display: flex;
+                flex-direction: row; 
+            }
+            .sample{
+                display: flex;
+            }
+            .box{
+                   display: flex;
+                   border: 2px solid black;
+                   margin-top: 20px;
+                   color: red;
+                   background-color: white;
+                   padding-left: 2px;
+            }
+            .sample1{
+                position: sticky;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(208, 223, 226);">
+        <div class="logo">
+        <img src="logo.png" width="100px" height="100px"/>
+           <h2 style="margin-left: 10px; font-size: 30px; color: red;">REGISTER</h2>
+           <h2 style="margin-left: 30px; font-size: 30px; color: blue;">AGENT LOGIN</h2>
+           <h2 style="margin-left: 30px; font-size: 30px; color: black;">CONTACT US</h2>
+           <h2 style="margin-left: 30px; font-size: 30px; color: red;">DAILY DEALS</h2>
+           <h2 style="margin-left: 30px; font-size: 30px; color:blue;">HOLIDAYS</h2>
+           <h2 style="margin-left: 30px; font-size: 30px; color: red;">TRAINS</h2>
+           <h2 style="margin-left: 30px; font-size: 30px; color:blue;">MORE</h2>      
+           <img src="logo2.png" width="100px" height="100px"/>
+        </div>
+        <div class="container">
+            <div class="sample1" style="position: absolute;top: 0px; right: 100px;">
+                <h1 style="color:black; font-size: 70px;">INDIAN RAILWAYS  <h2 style="font-size: 50px;color:blueviolet;">SAFTEY/SECURITY/PUNCTUALITY</h2> </h1>
+            </div>
+            <div style="position:absolute; right: 20px;top: 80%; ">
+                <img src="logo5.gif" width="150px" height="150px">
+            </div>
+            <div class="form">
+                <button style="background-color: blue;margin-top: 2px; margin-left:20px; width:200px; color: black; border-radius: 5px;">PNR STATUS</button>
+                <button style="background-color: blue;margin-top: 2px;margin-left: 70px; width: 200px;color: black; border-radius: 5px;">CHARTS/VACANCY</button>
+                <div class="image">
+                <img src="logo3.jpg" width="100px" height="100px">
+                <h1 style="font-size: 30px;color: blueviolet;">BOOK TICKET</h1>
+                <img src="logo4.png" width="100px" height="100px" style="margin-left: 50px; margin-top: 20px;">
+            </div>
+            <form>
+                <div class="sample">
+                    <label style="margin-left: 10px; color: blue;">FROM<img src="img4.png" width="20px" height="20px"></label>
+                    <input type="text" value="" name="first">
+                    <label style="margin-left: 15px;color: blue;">Date of Birth:</label>
+                    <input type="date" value="" name="last">
+                </div>
+                <div class="sample2">
+                    <label style="margin-top: 30px; margin-left: 10px;color: blue;">TO<img src="img1.jpg" width="20px" height="20px"></label>
+                    <input type="text" value="">
+                    <select style="margin-top: 40px; margin-left: 25px;color: blue;">
+                        <option value="">General</option>
+                        <option value="">ladies</option>
+                        <option value="">gents</option>
+                        <option value="">disability person</option>
+                        <option value="">duty pass</option>
+                    </select>
+                </div>
+                    <select style="margin-top:40px; margin-left: 10px;color: blue;">
+                        <option value="">ALL CLASSES</option>
+                        <option value="">AC slot</option>
+                        <option value="">sleeper</option>
+                        <option value="">second sitting</option>
+                    </select><br><br>
+                    <label style="margin-left: 10px; color:blue">flexable with date</label>
+                    <input type="checkbox" value="flexable with date"><br><br>
+                    <label style="margin-left: 10px;color:blue ">train with available berth</label>
+                    <input type="checkbox" value="train with available berth"><br><br>
+                    <label style="margin-left: 10px;color:blue ;">railway pass with concession</label>
+                    <input type="checkbox" value="railway pass with concession"><br><br>
+                    <label style="margin-left: 10px;color: blue;">person with disability concession</label>
+                    <input type="checkbox" value="person with disability concession">
+                 </form>
+                 <button style="margin-top: 30px;margin-left: 20px; width: 100px; border-radius: 50px; background-color: orangered;">SEARCH</button>
+                 <button style="margin-top: 30px; margin-left: 150px;border-radius: 50px;background-color: lightgreen;">Try Booking Ask In Disha 2.0</button>
+                 <div class="box">
+                    <p>Users are advised to download Official ‘IRCTC Rail Connect’ Apps only from Google Play Store or Apple App Store. Please do not use unauthorized links/URLs.
+                      <span style="color: blue;">Please check the alert section regarding restoration of AC 3-tier economy fare.</span>  
+                        IRCTC Tejas Express Train 82902/82901 (ADI-MMCT-ADI) has been cancelled for journey date 18.09.2023.</p>
+        
+                 </div>
+            </div>
+        </div>
+    </body>
+</html>
